@@ -1,0 +1,6 @@
+.App {
+    display: grid;
+    height: 100%;
+    grid-template: 168px 1fr 80px / 100%;
+    grid-gap: 24px;
+}

@@ -1,0 +1,34 @@
+.Date {
+    height: 72px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.DayOfWeek {
+    font-family: Roboto Mono;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.DateNumber {
+    font-family: Roboto Mono;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+.ChosenDate {
+    background: rgba(155, 81, 224, 1);
+    color: white;
+}
+
+.Date:disabled {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.Focused {
+    border: 2px solid rgba(155, 81, 224, 1);
+}

@@ -1,0 +1,71 @@
+.ProductCard {
+    height: 136px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Title {
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Caption {
+    padding: 0 12px;
+}
+
+.Description {
+    margin-bottom: 16px;
+    margin-top: 8px;
+    color: #000;
+    height: 32px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.Price {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.PriceWithoutDiscount {
+    text-decoration: line-through;
+}
+
+.PriceWithDiscount {
+    color: #B00;
+    margin-right: 8px;
+}
+
+@media (min-width: 720px) {
+    .ProductCard {
+        /* needs in cases when we have only one card on desktop */
+        width: 336px;
+
+        height: 377px;
+        flex-direction: column;
+    }
+    .Title {
+        height: 48px;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+    .Price {
+        font-size: 16px;
+    }
+    .Caption {
+        padding: 0 16px;
+    }
+}

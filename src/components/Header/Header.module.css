@@ -1,0 +1,11 @@
+.Header {
+    background: #4E2870;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    font-size: 32px;
+}

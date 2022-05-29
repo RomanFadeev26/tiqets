@@ -1,0 +1,12 @@
+.Main {
+    display: grid;
+    justify-items: center;
+    grid-template: auto 1px 1fr / 100%;
+    grid-gap: 24px;
+    box-sizing: border-box;
+}
+
+.Divider {
+    border-top: 1px solid #ddd;
+    width: 100%;
+}

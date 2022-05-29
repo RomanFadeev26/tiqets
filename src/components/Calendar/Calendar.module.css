@@ -1,0 +1,41 @@
+.Calendar {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Label {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.CalendarBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.Divider {
+    width: 1px;
+    height: 40px;
+    background: black;
+}
+
+.DividerDisabled {
+    opacity: 10%;
+}
+
+.CalendarExternalWrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.CalendarInternalWrapper {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+}

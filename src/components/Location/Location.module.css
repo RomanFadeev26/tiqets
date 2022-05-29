@@ -1,0 +1,12 @@
+.Location {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.Wrapper {
+    min-width: 336px;
+    flex: 1 1 auto;
+}
