@@ -35,9 +35,17 @@
     margin-bottom: 16px;
     margin-top: 8px;
     color: #000;
-    height: 32px;
     font-size: 12px;
     overflow: hidden;
+
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: calc(12px * 1.4 * 2); /* Fallback for non-webkit */
+
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 }
 
 .Price {
