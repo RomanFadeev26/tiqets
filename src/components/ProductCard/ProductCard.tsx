@@ -46,7 +46,9 @@ export const ProductCard: React.FC<Props> = ({
             <figure ref={ref} className={classes.ProductCard}>
                 {readyToLoad && (<img src={`${imgSrc}${pictureFormat}`} alt={`${title}\n${tagline}`}/>)}
                 <figcaption className={classes.Caption}>
-                    <h2 className={classes.Title}>{title}</h2>
+                    <div className={classes.Overflow}>
+                        <h2 className={classes.Title}>{title}</h2>
+                    </div>
                     <p className={classes.Description}>{tagline}</p>
                     {priceWithDiscount
                         ? (
